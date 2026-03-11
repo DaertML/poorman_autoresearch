@@ -3,6 +3,9 @@ Automated neural networks training guided by LLMs, following the same ideas as t
 
 # Examples
 python run.py --max-runs 5             # quick test, ~25 min total
+
 python run.py --skip-prepare           # data already downloaded
+
 python run.py --model llama3.3:70b     # different LLM
+
 python run.py --num-shards 4           # smaller download for testing
